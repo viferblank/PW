@@ -1,0 +1,50 @@
+
+.menukiri ul{
+		margin:0;
+		padding:10px;
+		list-style:none;
+		float:center;
+		font-size:109%;
+	font-family:Arial;
+		}
+
+.menukiri ul li{
+		border-bottom:1px solid gray;		
+		margin-bottom:10px;
+		float:center;
+		font-size:100%;
+
+		}
+.menukiri ul li a:hover{
+		//cursor:pointer;
+		margin:0;
+		padding:;
+		opacity:0.5;
+		color:Blue;
+}
+.menukiri ul li label{
+		margin:0;
+		padding:;
+}
+.menukiri ul li ul{
+		display:none;
+		position:fixed;
+		transition:2s;
+}
+.menukiri ul li:hover ul{
+		display:block;
+		position:relative;
+		top:10px;
+		left:10px;
+		}
+.menukiri ul li:hover ul li label{
+		display:block;
+		width:100px;
+		cursor:pointer;
+		position:relative;
+}
+.menukiri ul li:hover ul li label:hover{
+		color:black;		
+		opacity:0.5;
+		cursor:pointer;
+		}
